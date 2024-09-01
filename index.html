@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gallery-container">
+        <br> <br> <br>
+
+        <h1>Image Gallery</h1>
+
+        <br> <br>
+
+        <p>Explore a stunning collection of images with our interactive image gallery. Designed for a seamless user
+            experience, <br> the gallery allows you to easily navigate through photos with just a click. The clean
+            and modern layout <br> ensures that each image is displayed prominently, allowing you to fully immerse
+            yourself <br>
+            in the visual content.Whether you’re showcasing travel memories, product images, or artistic
+            photography,<br> this gallery provides an elegant platform to present your images with style and
+            sophistication.</p>
+
+        <div class="full-img" id="FullImgBox">
+            <img class="image-gallery" src="images/argan-oil.jpg" id="FullImg">
+            <span onclick="closeFullImg()">X</span>
+
+        </div>
+
+        <div class="image-section">
+            <img class="image-gallery" src="images/argan-oil.jpg" onclick="openFullImg(this.src)">
+            <img class="image-gallery" src="images/lipsticksss.jpg" onclick="openFullImg(this.src)">
+            <img class="image-gallery" src="images/flowerwithbooke.jpg" onclick="openFullImg(this.src)">
+
+            <img class="image-gallery" src="images/books.jpg" onclick="openFullImg(this.src)">
+            <img class="image-gallery" src="images/beach-things.jpg" onclick="openFullImg(this.src)">
+            <img class="image-gallery" src="images/party.jpg" onclick="openFullImg(this.src)">
+
+            <img class="image-gallery" src="images/makeup.jpg" onclick="openFullImg(this.src)">
+            <img class="image-gallery" src="images/coffee.jpg" onclick="openFullImg(this.src)">
+            <img class="image-gallery" src="images/women.jpg" onclick="openFullImg(this.src)">
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
